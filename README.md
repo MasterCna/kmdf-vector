@@ -4,7 +4,7 @@ Pure C vector implementation for Kernel-mode drivers
 
 Easy-to-use
 ```C
-#include "vc_vector.h"
+#include "vector.h"
 
 int main() {
   // Creates an empty vector with the default reserved size

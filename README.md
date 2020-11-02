@@ -6,7 +6,6 @@ Easy-to-use
 ```C
 #include "vector.h"
 
-int main() {
   // Creates an empty vector with the default reserved size
   // and without custom deleter. Vector will contain 'int'
   vc_vector* v = vc_vector_create(0, sizeof(int), NULL);
@@ -29,8 +28,6 @@ int main() {
   }
 
   vc_vector_release(v);
-  return 0;
-}
 ```
 
 ## Main Implementation

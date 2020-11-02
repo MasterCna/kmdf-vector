@@ -3,7 +3,7 @@ Pure C vector implementation for Kernel-mode drivers
 
 
 Easy-to-use
-```
+```C
 #include "vc_vector.h"
 
 int main() {

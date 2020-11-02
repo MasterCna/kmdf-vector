@@ -25,7 +25,7 @@ int main() {
   for (void* i = vc_vector_begin(v);
              i != vc_vector_end(v);
              i = vc_vector_next(v, i)) {
-    printf("%u; ", *(int*)i);
+    KdPrint(("%u; ", *(int*)i));
   }
 
   vc_vector_release(v);

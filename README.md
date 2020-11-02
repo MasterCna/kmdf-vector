@@ -1,5 +1,5 @@
 # kmdf-vector
-Pure C vector implementation for Kernel-mode drivers
+Pure C vector implementation optimized for Kernel-mode driver usage
 
 
 Easy-to-use
